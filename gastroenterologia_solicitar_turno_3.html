@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Clínica del Sol SRL</title>
+  </head>
+  <body style="width: 100%; height: 100%; display: block; margin: 0">
+    <header
+      style="
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #03c8f4;
+        color: #27272a;
+        padding: 10px;
+      "
+    >
+      <h1 style="font-weight: 600; margin: 0">Clínica del Sol S.R.L</h1>
+      <h2 style="font-weight: 500; margin: 0">
+        Sistema de Gestión de Turnos Médicos
+      </h2>
+    </header>
+    <hr />
+    <main style="display: flex; flex-direction: row">
+      <section
+        style="
+          height: 100%;
+          width: 20%;
+          background-color: blue;
+          color: white;
+          gap: 10px;
+          display: flex;
+          flex-direction: column;
+          padding: 10px;
+        "
+      >
+        <h2 style="text-align: center; font-weight: 500">
+          Seleccione la especialidad médica
+        </h2>
+        <ul style="list-style: none; margin: 0; padding: 0; text-align: center">
+          <a href="/clinica_catalogo_profesionales.html"
+            ><li>Clínica general</li>
+          </a>
+          <a href="/gastroenterolgoia_catalogo_profesionales.html">
+            <li>Gastroenterología</li></a
+          >
+
+          <a href="/cardiologia_catalogo_profesionales.html">
+            <li>Cardiología</li></a
+          >
+
+          <a href="/pediatria_catalogo_profesionales.html">
+            <li>Pediatría</li></a
+          >
+
+          <a href="/oncologia_catalogo_profesionales.html"
+            ><li>Oncología</li></a
+          >
+        </ul>
+        <a href="/contact.html"> <button id="contact">Contáctenos</button></a>
+      </section>
+      <section
+        style="
+          width: 80%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          padding-left: 5px;
+          padding-right: 5px;
+          padding-bottom: 15px;
+        "
+      >
+        <div
+          style="
+            display: flex;
+            gap: 5px;
+            width: 100%;
+            justify-content: space-evenly;
+            margin: auto;
+          "
+        >
+          <img src="img/img9.jpg" width="30%" style="border: solid 1px" />
+
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              width: 40%;
+              justify-content: space-between;
+            "
+          >
+            <p
+              style="
+                background-color: darkcyan;
+                color: white;
+                margin: 0;
+                padding: 5px;
+              "
+            >
+              Moreira
+            </p>
+            <p
+              style="
+                background-color: darkcyan;
+                color: white;
+                margin: 0;
+                padding: 5px;
+              "
+            >
+              Florencia
+            </p>
+            <p
+              style="
+                background-color: darkcyan;
+                color: white;
+                margin: 0;
+                padding: 5px;
+              "
+            >
+              Gastroenterología
+            </p>
+            <p
+              style="
+                background-color: darkcyan;
+                color: white;
+                margin: 0;
+                padding: 5px;
+              "
+            >
+              Lunes y Miércoles
+            </p>
+            <p
+              style="
+                background-color: darkcyan;
+                color: white;
+                margin: 0;
+                padding: 5px;
+              "
+            >
+              18 - 21 hs
+            </p>
+          </div>
+        </div>
+        <div style="margin-top: 18px">
+          <h3
+            style="
+              background-color: blue;
+              color: white;
+              font-weight: 500;
+              padding: 2px;
+              text-align: center;
+            "
+          >
+            Datos del paciente
+          </h3>
+          <form
+            style="
+              display: flex;
+              flex-direction: column;
+              width: 70%;
+              gap: 5px;
+              margin: auto;
+            "
+            action="/confirm_reserv.html"
+          >
+            <input placeholder="Apellido" required type="text" />
+            <input placeholder="Nombre" required type="text" />
+            <input placeholder="DNI" required type="number" />
+            <input placeholder="Email" required type="email" />
+            <input placeholder="Fecha del turno" required type="date" />
+            <input placeholder="Horario del turno" required type="time" />
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                margin-top: 18px;
+              "
+            >
+              <button
+                type="submit"
+                style="
+                  padding: 6px;
+                  background-color: #84cc16;
+                  border: none;
+                  color: white;
+                  border-radius: 5px;
+                  cursor: pointer;
+                  font-size: large;
+                  width: 150px;
+                "
+              >
+                Registrar turno
+              </button>
+              <a href="/gastroenterolgoia_catalogo_profesionales.html">
+                <button
+                  type="button"
+                  style="
+                    padding: 6px;
+                    background-color: #03c8f4;
+                    border: none;
+                    color: white;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    font-size: large;
+                    width: 150px;
+                  "
+                >
+                  Volver
+                </button></a
+              >
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer
+      style="
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: black;
+        color: white;
+        font-size: 11px;
+        justify-items: center;
+        align-items: center;
+      "
+    >
+      <p>Clínica del Sol SRL - Todos los derechos reservados - 2024</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Clínica del Sol SRL</title>
+  </head>
+  <body style="width: 100%; height: 100%; display: block; margin: 0">
+    <header
+      style="
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #03c8f4;
+        color: #27272a;
+        padding: 10px;
+      "
+    >
+      <h1 style="font-weight: 600; margin: 0">Clínica del Sol S.R.L</h1>
+      <h2 style="font-weight: 500; margin: 0">
+        Sistema de Gestión de Turnos Médicos
+      </h2>
+    </header>
+    <hr />
+    <main style="display: flex; flex-direction: row">
+      <section
+        style="
+          height: 100%;
+          width: 20%;
+          background-color: blue;
+          color: white;
+          gap: 10px;
+          display: flex;
+          flex-direction: column;
+          padding: 10px;
+        "
+      >
+        <h2 style="text-align: center; font-weight: 500">
+          Seleccione la especialidad médica
+        </h2>
+        <ul style="list-style: none; margin: 0; padding: 0; text-align: center">
+          <a href="/clinica_catalogo_profesionales.html"
+            ><li>Clínica general</li>
+          </a>
+          <a href="/gastroenterolgoia_catalogo_profesionales.html">
+            <li>Gastroenterología</li></a
+          >
+
+          <a href="/cardiologia_catalogo_profesionales.html">
+            <li>Cardiología</li></a
+          >
+
+          <a href="/pediatria_catalogo_profesionales.html">
+            <li>Pediatría</li></a
+          >
+
+          <a href="/oncologia_catalogo_profesionales.html"
+            ><li>Oncología</li></a
+          >
+        </ul>
+        <a href="/contact.html"> <button id="contact">Contáctenos</button></a>
+      </section>
+      <section
+        style="
+          width: 80%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          padding-left: 5px;
+          padding-right: 5px;
+          padding-bottom: 15px;
+        "
+      >
+        <a
+          href="/index.html"
+          style="
+            padding: 5px;
+            background-color: #03c8f4;
+            border-radius: 5px;
+            width: 4.5%;
+            margin-bottom: 10px;
+            cursor: pointer;
+          "
+          >Volver</a
+        >
+
+        <table style="width: 100%" class="styled-table">
+          <tr id="header-table">
+            <td>Dr/a.</td>
+            <td>Apellido</td>
+            <td>Nombre</td>
+            <td>Especialidad</td>
+            <td>Días de atención</td>
+            <td>Horarios</td>
+            <td>Turno</td>
+          </tr>
+          <tr>
+            <td style="width: 30%">
+              <a href="/clinica_solicitar_turno_1.html">
+                <img src="/img/img4.jpg" width="70%" height="40%"
+              /></a>
+            </td>
+            <td>Perez</td>
+            <td>Juana</td>
+            <td>Clinica médica</td>
+            <td>Martes y Jueves</td>
+            <td>18 - 20 hs</td>
+            <td>
+              <a
+                style="padding: 5px; background-color: red; border-radius: 5px"
+                href="/clinica_solicitar_turno_1.html"
+                >Reservar</a
+              >
+            </td>
+          </tr>
+          <tr style="width: 30%">
+            <td>
+              <a href="/clinica_solicitar_turno_2.html">
+                <img src="/img/img5.jpg" width="70%" height="40%"
+              /></a>
+            </td>
+            <td>Diav</td>
+            <td>Guillermina</td>
+            <td>Clinica médica</td>
+            <td>Lunes y Miércoles</td>
+            <td>17 - 19 hs</td>
+            <td>
+              <a
+                style="padding: 5px; background-color: red; border-radius: 5px"
+                href="/clinica_solicitar_turno_2.html"
+                >Reservar</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 30%">
+              <a href="/clinica_solicitar_turno_3.html">
+                <img src="/img/img6.jpg" width="70%" height="40%"
+              /></a>
+            </td>
+            <td>Martinez</td>
+            <td>Fatima</td>
+            <td>Clinica médica</td>
+            <td>Viernes</td>
+            <td>18 - 21 hs</td>
+            <td>
+              <a
+                style="padding: 5px; background-color: red; border-radius: 5px"
+                href="/clinica_solicitar_turno_3.html"
+                >Reservar</a
+              >
+            </td>
+          </tr>
+        </table>
+      </section>
+    </main>
+    <footer
+      style="
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: black;
+        color: white;
+        font-size: 11px;
+        justify-items: center;
+        align-items: center;
+      "
+    >
+      <p>Clínica del Sol SRL - Todos los derechos reservados - 2024</p>
+    </footer>
+  </body>
+</html>
